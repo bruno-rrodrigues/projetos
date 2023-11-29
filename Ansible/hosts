@@ -1,0 +1,10 @@
+[all:vars]
+ansible_connection=ssh
+ansible_user=vagrant
+ansible_ssh_pass=vagrant
+
+[wordpress]
+192.168.0.20
+
+[mysql]
+192.168.0.22

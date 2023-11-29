@@ -1,0 +1,68 @@
+/* Importa as familias de fontes do projeto do goolgre */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+/* É um css resete, remove o alinhamento padrao do navegador */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* O body é a tag onde fica o corpo do code. */
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: silver;
+}
+
+/* Classe do strong */
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+/* .apresentacao é classe do main */
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Justifica os elementos entre eles. */
+}
+
+/* classe da section principal do main */
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Classe da tag div, tag usada para agrupar elementos sem usar uma tag semantica, pois é melhor 
+interpretada pelos nevegadores */
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600; /* Peso da fonte */
+    padding: 21.5px 0; /* Primeira medida altura do texto top e bottom, segunda é a largura */
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
